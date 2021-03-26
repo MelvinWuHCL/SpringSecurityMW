@@ -15,7 +15,7 @@ public class User {
     private String userName;
     private String password;
     private boolean active;
-    private String roles;
+    private String role;
 
     public int getId() {
         return id;
@@ -49,11 +49,11 @@ public class User {
         this.active = active;
     }
 
-    public String getRoles() {
-        return roles;
+    public String getRole() {
+        return role;
     }
 
-    public void setRoles(String roles) {
-        this.roles = roles;
+    public void setRole(String roles) {
+        this.role = roles;
     }
 }
